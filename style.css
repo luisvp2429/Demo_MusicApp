@@ -19,7 +19,7 @@ body{
 header{
     width: 85%;
     height: 95%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -283,6 +283,7 @@ header .master_play .bar .bar2{
     width: 20%;
     height: 100%;
     top: 0;
+    transition: 1s linear;
 }
 
 header .master_play .bar .dot{
@@ -353,6 +354,7 @@ header .master_play .vol .vol_bar{
     width: 0%;
     height: 100%;
     top: 0;
+    transition: 1s linear;
 }
 
 header .master_play .vol .dot{
